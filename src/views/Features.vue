@@ -72,7 +72,7 @@ export default {
           title: "Added map controls",
           desc:
             "Added ability to show/hide additional map elements like attribution, coordinates, scalebar and minimap",
-          status: "ongoing"
+          status: "implemented"
         },
         {
           title: "Added measure feature",
@@ -80,42 +80,42 @@ export default {
           status: "implemented"
         },
         {
-          title: "Implemented vector drag and drop",
-          desc:
-            "Added ability to drag and drop GPX,GeoJSON,IGC,KML,TopoJSON and render vectors. Implemented modify option for dragged vectors (only for geojson). Ability to download modified vectors",
+          title: "Implemented viewing details on feature click",
+          desc: "On vector click popup with additional information opens",
           status: "implemented"
         },
         {
-          title: "Parse vector shapefiles",
-
-          desc: "Implement functionality to upload and edit shapefile vectors",
-          status: "todo"
+          title: "Integrated basemap layers",
+          desc:
+            "Added several basemap layers wit added ability to change opacity",
+          status: "implemented"
         },
         {
           title: "Consume spatial data via API",
-
           desc:
             "Using AXIOS to consume spatial data and render them on map with ability to read properties",
           status: "todo"
         },
         {
-          title: "Implemented WFS functionality",
-
+          title: "Add backend logic",
           desc:
-            "Implement feature format for reading and writing data in the WFS format",
+            "Create backend logic for existing app. Create functionality for adding properties and vector geometries in db (SQL or PostgreSQL).Save and render geometry using .NET Core",
           status: "todo"
         },
         {
-          title: "Add HeatMaps",
-
-          desc: "Implement layers for rendering vector data as a heatmap",
+          title: "Modify",
+          desc: "Add ability to modify drawn layers",
           status: "todo"
         },
         {
-          title: "Integrate existing frontend functionality with .NET Core",
-
+          title: "Graphs",
+          desc: "Add ability to view wild landfills using graphs presentation ",
+          status: "todo"
+        },
+        {
+          title: "Filters",
           desc:
-            "Create backend logic for existing app. Create functionality for adding properties and vector geometries i db (SQL or PostgreSQL).Save and render geometry using .NET Core ",
+            "Add ability to implement filtering by category types for vectors",
           status: "todo"
         }
       ]

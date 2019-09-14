@@ -24,7 +24,7 @@
                 <v-select :rules="categoryTypePropertyRules" v-model="categoryTypes" :items="types" required label="Category Types"></v-select>
               </v-flex>
               <v-flex xs12>
-                <v-date-picker :rules="datePropertyRules" v-model="dateRecorded" required></v-date-picker>
+                <v-date-picker locale="hr-HR" :rules="datePropertyRules" v-model="dateRecorded" required></v-date-picker>
               </v-flex>
             </v-layout>
           </v-form>

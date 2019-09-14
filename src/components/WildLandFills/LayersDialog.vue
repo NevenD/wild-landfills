@@ -13,7 +13,7 @@
                 <v-card-text class="grey lighten-3">
                   <v-layout row>
                     <v-flex md6>
-                      <v-switch v-model="vectorLandFills" color="success" id="vectorField" @change="onchangeVectorFields" label="Odlagališta otpada"></v-switch>
+                      <v-switch v-model="vectorLandFills" color="success" id="vectorField" @change="onchangeVectorFields" label="Wild landfills"></v-switch>
                     </v-flex>
                     <v-flex md6>
                       <v-slider :inverse-label="true" :disabled="slider.vector" color="green" append-icon="opacity" v-model="VectorOpacity" thumb-label></v-slider>

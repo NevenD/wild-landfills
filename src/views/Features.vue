@@ -65,7 +65,7 @@ export default {
         {
           title: "Added view interactions",
           desc:
-            "Changed visuals of zoom in, zoom out, zoom to extent and hove view. Added ability to reset rotation if rotation is not 0",
+            "Changed visuals of zoom in, zoom out, zoom to extent and hove view. Added ability to reset rotation if rotation is not 0 degrees",
           status: "implemented"
         },
         {
@@ -91,10 +91,10 @@ export default {
           status: "implemented"
         },
         {
-          title: "Consume spatial data via API",
+          title: "Added validation",
           desc:
-            "Using AXIOS to consume spatial data and render them on map with ability to read properties",
-          status: "todo"
+            "Added validation foir input fields (Name, Location, Category Type) on saving drawn features",
+          status: "implemented"
         },
         {
           title: "Add backend logic",
@@ -114,8 +114,7 @@ export default {
         },
         {
           title: "Filters",
-          desc:
-            "Add ability to implement filtering by category types for vectors",
+          desc: "Add ability to implement filtering vectors by attributes",
           status: "todo"
         }
       ]
